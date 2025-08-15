@@ -134,7 +134,7 @@ export default function ManageEmployees() {
 
   return (
     <>
-      <h1 className="text-xl font-bold mb-6">Quản Lý Nhân Viên</h1>
+      <h1 className="text-lg font-bold mb-6">Quản Lý Nhân Viên</h1>
 
       {/* Tìm kiếm & Thêm nhân viên */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
@@ -179,7 +179,7 @@ export default function ManageEmployees() {
 
       {/* Bảng nhân viên */}
       <div className="overflow-x-auto border rounded-lg">
-        <table className="w-full text-sm text-left">
+        <table className="w-full text-xs md:text-sm text-left">
           <thead className="bg-gray-100">
             <tr>
               <th className="px-4 py-2">Tên</th>

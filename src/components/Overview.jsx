@@ -46,7 +46,7 @@ export default function Overview() {
 
   return (
     <>
-      <h1 className="text-xl font-bold mb-6">Thống kê tháng hiện tại</h1>
+      <h1 className="text-lg font-bold mb-6">Thống kê tháng hiện tại</h1>
       <div className="grid grid-cols-1 md:grid-cols-1 p-4">
         
         {/* Biểu đồ thu nhập */}

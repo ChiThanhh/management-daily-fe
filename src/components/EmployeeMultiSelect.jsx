@@ -40,7 +40,7 @@ const fmt = (num) =>
                 <CommandItem
                   key={emp.id}
                   onSelect={() => toggleEmployee(emp.id)}
-                  className="cursor-pointer"
+                  className="cursor-pointer text-xs md:text-sm"
                 >
                   <Check
                     className={cn(

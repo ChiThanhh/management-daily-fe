@@ -110,7 +110,7 @@ export default function DailyCalc() {
 
     return (
         <>
-            <h1 className="text-xl font-bold mb-6">Tính Toán Hàng Ngày</h1>
+            <h1 className="text-lg font-bold mb-6">Tính Toán Hàng Ngày</h1>
 
             {/* Bảng nhập và tính */}
             <Card className="mb-6">
@@ -119,7 +119,7 @@ export default function DailyCalc() {
                 </CardHeader>
                 <CardContent>
                     <div className="overflow-x-auto">
-                        <table className="w-full border-collapse border border-gray-300">
+                        <table className="w-full border-collapse border border-gray-300 text-xs md:text-sm">
                             <thead>
                                 <tr className="bg-gray-100">
                                     <th className="border p-2 text-left">Mã</th>
@@ -203,7 +203,7 @@ export default function DailyCalc() {
                 </CardHeader>
                 <CardContent>
                     <div className="overflow-x-auto">
-                        <table className="w-full border-collapse border border-gray-300">
+                        <table className="w-full border-collapse border border-gray-300 text-xs md:text-sm">
                             <thead>
                                 <tr className="bg-gray-100">
                                     <th className="border p-2 text-left">Ngày</th>

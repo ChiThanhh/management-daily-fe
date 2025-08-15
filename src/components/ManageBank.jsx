@@ -142,7 +142,7 @@ export default function ManageBank() {
 
   return (
     <>
-      <h1 className="text-xl font-bold mb-6">Quản Lý Mã Ngân Hàng</h1>
+      <h1 className="text-lg font-bold mb-6">Quản Lý Mã Ngân Hàng</h1>
 
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
         <div className="flex items-center gap-2 flex-1">
@@ -204,7 +204,7 @@ export default function ManageBank() {
 
       {/* Bảng dữ liệu */}
       <div className="overflow-x-auto border rounded-lg">
-        <table className="w-full text-sm text-left">
+        <table className="w-full text-sm text-left text-xs md:text-sm">
           <thead className="bg-gray-100">
             <tr>
               <th className="px-4 py-2">Mã ngân hàng</th>
