@@ -26,9 +26,9 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="flex h-screen">
-      <Sidebar activePage={activePage} setActivePage={changePage} />
-      <main className="flex-1 p-6 overflow-y-auto">
+    <div className="flex-[1] h-screen">
+      <Sidebar  activePage={activePage} setActivePage={changePage} />
+      <main className="flex-[4] p-6 overflow-y-auto">
         {activePage === "overview" && <Overview />}
         {activePage === "dailyCalc" && <DailyCalc />}
         {activePage === "employeeExpenses" && <EmployeeExpenses />}
